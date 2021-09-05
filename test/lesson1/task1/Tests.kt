@@ -31,7 +31,7 @@ class Tests {
     }
 
     @Test
-    @Tag("Example")
+    @Tag("2.0")
     fun quadraticEquationRoot() {
         assertEquals(2.0, quadraticEquationRoot(1.0, -3.0, 2.0), 1e-13)
         assertEquals(1.0, quadraticEquationRoot(1.0, -2.0, 1.0), 1e-13)
